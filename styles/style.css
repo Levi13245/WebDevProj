@@ -86,3 +86,40 @@ footer {
   font-weight: bold;
   font-size: larger;
 }
+/* Additional Styles for Animal Pages */
+header {
+  position: relative; /* For positioning the Home button */
+}
+
+.home-button {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  background-color: #333;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.home-button:hover {
+  background-color: #555;
+}
+
+.animal-info {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.animal-info img {
+  width: 100%;
+  max-width: 400px; /* Smaller image size */
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
